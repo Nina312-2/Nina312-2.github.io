@@ -1,0 +1,108 @@
+header {
+    background-color: beige;
+    color:rgb(52, 52, 52);
+    text-align: center;
+    width: 20%;
+    margin:auto;
+    border: solid palevioletred 2px;
+    box-shadow: 1px 5px 20px 20px rosybrown;
+}
+
+section {
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    box-shadow: -10px 0 10px -5px rosybrown;
+}
+
+nav {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: solid palevioletred 3px;
+    display: block;
+    margin: auto;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+#tabell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border: palevioletred;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+
+#boks {
+    background-color: bisque; 
+    height: 75px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    box-shadow: -10px 0 10px -5px rosybrown;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    background-color: palevioletred;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+#up {
+    list-style-type: none;
+    display: flex;
+    gap: 5%;
+}
+
+li {
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+#boks {
+    height: 100px;
+    color: palevioletred;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box {
+    height: 100px;
+    width: 180px;
+    background-color: beige;
+    border: solid palevioletred;
+    display: table;
+    list-style-position: inside;
+}
+
+#UGH {
+    background-color: black;
+    height: 50px;
+}
